@@ -1,4 +1,4 @@
-# INTERVIEW PREPARATION
+# INTERVIEW PREPARATION - MERN STACK
 
 ## TODO
 - [ ] Basics of web
@@ -14,3 +14,8 @@
 - [ ] Simple fullstack (MERN)
 - [ ] JWT
 - [ ] Authentication
+- [ ] TypeScript
+- [ ] NextJS
+- [ ] MySQL
+- [ ] Postgresql
+- [ ] Prisma or Drizzle ORM
