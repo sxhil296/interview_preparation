@@ -6,7 +6,7 @@
 // *************** DATATYPES ***************** //
 // based on how datatypes are stored and accessed
 
-// *** PRIMITIVE DATATYPES - most basic data types, immutable, stored directly in the variable, call by value *** //
+// *** PRIMITIVE DATATYPES - most basic data types, immutable, changes occur in copy, stored directly in the variable, call by value, stack memory *** //
 
 // Number => 2, 2.3
 
@@ -30,7 +30,7 @@ console.log(mySymbol === anotherSymbol); //false
 
 
 
-// **** NON PRIMITIVE DATATYPES - reference types, objects and mutable, can hold collection of values, stored as reference  ***** //
+// **** NON PRIMITIVE DATATYPES - reference types, objects and mutable, can hold collection of values, stored as reference, heap memory, changes occur in original value  ***** //
 
 // Object - collection of properties in key:value pair
 let myobject = {
@@ -174,3 +174,40 @@ console.log(undefined != 0);
 console.log("2" == 2); //true
 console.log("2" === 2); //false
 // === doesn't do auto type conversion
+
+
+// *** return types *** //
+console.log("Type of : ");
+console.log(typeof 56); //number
+console.log(typeof 56876567n); //bigInt
+console.log(typeof "abcde"); //string
+console.log(typeof ""); //string
+console.log(typeof undefined); //undefined
+console.log(typeof null);  //object
+console.log(typeof greet); //function
+
+
+
+
+// ************************ memory ************************ //
+// stack memory(primitive) and heap memory(non primitive)
+
+
+// *** stack memory *** //
+let myName = "Sahil"
+let anotherName = myName
+console.log(anotherName); //Sahil
+anotherName = "Emir"
+console.log(myName); //Sahil
+console.log(anotherName); //Emir
+
+// *** heap memory *** //
+let userOne = {
+    email : "user@gmail.com",
+    upiId : "345@api"
+}
+
+let userTwo = userOne
+userTwo.email = "emir@gmail.com"
+console.log(userOne.email); //emir@gmail.com
+console.log(userTwo.email); //emir@gmail.com
