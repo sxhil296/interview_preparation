@@ -83,3 +83,25 @@ console.log(Object.keys(tinderUser));
 console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser));
 console.log(tinderUser.hasOwnProperty('name'));
+
+
+
+
+console.log("*************");
+const course = {
+    coursename : " js in hindi",
+    price : "99",
+    courseTeacher : "hitesh"
+}
+// console.log(course.courseTeacher);
+const {courseTeacher : instructor} = course //destructing of objects
+console.log(instructor);
+
+
+
+// API
+
+// xml structure was used earlier for apis
+// now json is used
+
+// JSON - 
