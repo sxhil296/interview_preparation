@@ -1,6 +1,8 @@
 // import Chai from "./components/Chai";
 
-import UseEffect2 from "./components/UseEffect2";
+import UseState2 from "./components/UseState2";
+
+// import UseEffect2 from "./components/UseEffect2";
 
 // import BgChanger from "./components/BgChanger";
 // import UseEffect from "./components/UseEffect";
@@ -33,7 +35,8 @@ function App() {
       /> */}
       {/* <BgChanger /> */}
       {/* <UseEffect /> */}
-      <UseEffect2 />
+      {/* <UseEffect2 /> */}
+      <UseState2 />
     </>
   );
 }
