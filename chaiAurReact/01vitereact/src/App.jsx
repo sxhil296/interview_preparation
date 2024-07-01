@@ -1,16 +1,13 @@
 // import Chai from "./components/Chai";
 
-import UseRef from "./components/UseRef";
+import UseCallback from "./components/hooks/UseCallback";
 
-// import UseState2 from "./components/UseState2";
 
-// import UseEffect2 from "./components/UseEffect2";
 
 // import BgChanger from "./components/BgChanger";
 // import UseEffect from "./components/UseEffect";
 // import PropsCard from "./components/PropsCard";
 
-// import Counter from "./components/Counter";
 
 function App() {
   return (
@@ -36,10 +33,9 @@ function App() {
         btnText={"Button"}
       /> */}
       {/* <BgChanger /> */}
-      {/* <UseEffect /> */}
-      {/* <UseEffect2 /> */}
-      {/* <UseState2 /> */}
-      <UseRef />
+
+      <UseCallback />
+     
     </>
   );
 }
