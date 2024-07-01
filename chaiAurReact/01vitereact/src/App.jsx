@@ -1,10 +1,9 @@
-import UseReducer from "./components/hooks/UseReducer";
-
+import UseLayotEffect from "./hooks/UseLayotEffect";
 
 function App() {
   return (
     <>
-     <UseReducer />
+      <UseLayotEffect />
     </>
   );
 }
