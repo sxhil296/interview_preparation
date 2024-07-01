@@ -1,11 +1,10 @@
-import Profile from "./components/Profile";
-import Footer from "./components/Footer";
+import UseReducer from "./components/hooks/UseReducer";
+
 
 function App() {
   return (
     <>
-      <Profile />
-      <Footer />
+     <UseReducer />
     </>
   );
 }
