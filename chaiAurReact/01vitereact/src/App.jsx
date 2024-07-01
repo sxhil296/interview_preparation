@@ -1,9 +1,10 @@
-import UseLayotEffect from "./hooks/UseLayotEffect";
+
+import CustomCounter from "./hooks/customHook/CustomCounter";
 
 function App() {
   return (
     <>
-      <UseLayotEffect />
+      <CustomCounter />
     </>
   );
 }
